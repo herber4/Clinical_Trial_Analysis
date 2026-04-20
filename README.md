@@ -34,6 +34,8 @@ Rscript R/analysis.R
 After running, you should see outputs such as:
 
 - `results/baseline_summary.csv`
+![csv](results/baseline_summary.csv)
+  
 - `results/continuous_endpoint.csv`
 - `results/binary_endpoint.csv`
 - `results/time_to_event.csv`
