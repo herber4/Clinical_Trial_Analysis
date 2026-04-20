@@ -42,6 +42,11 @@ After running, you should see outputs such as:
 - `results/mmrm_summary.txt`
 - `results/subgroup_forest.csv`
 - `results/adverse_events_summary.csv`
+| trt     | subject_count | subjects_with_any_ae | events_total | subjects_with_serious_ae | percent_any_ae | percent_serious_ae |
+| ------- | ------------- | -------------------- | ------------ | ------------------------ | -------------- | ------------------ |
+| Placebo | 120           | 65                   | 100          | 6                        | 54.2           | 5                  |
+| Active  | 120           | 84                   | 146          | 15                       | 70             | 12.5               |
+  
 - `figures/km_curve.png`
 - `figures/longitudinal_means.png`
 - `figures/forest_plot.png`
