@@ -49,9 +49,11 @@ After running, you should see outputs such as:
 You can paste the generated images into this README and use captions like:
 
 - **Figure 1.** Kaplan-Meier curve for time to first event by treatment arm.
+[png](figures/km_curve.png)
 - **Figure 2.** Mean biomarker trajectory over time with SD bars.
+[png](figures/longitudinal_means.png)
 - **Figure 3.** Forest plot of subgroup treatment effects for the continuous endpoint.
-
+[png](figures/forest_plot.png)
 ## Notes on the analyses
 
 The code uses a fairly standard trial-statistics workflow:
