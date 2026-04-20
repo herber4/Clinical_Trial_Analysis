@@ -1,0 +1,2 @@
+"Endpoint","Estimator","OR","CI_low","CI_high","P_value"
+"Responder at week 12","Logistic regression OR (Active vs Placebo)",6.52,3.59,11.83,6.87e-10

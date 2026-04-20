@@ -1,0 +1,2 @@
+"Endpoint","Estimator","HR","CI_low","CI_high","P_value"
+"Time to first event","Cox PH HR (Active vs Placebo)",0.59,0.42,0.81,0.00112

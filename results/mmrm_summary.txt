@@ -1,0 +1,44 @@
+Linear mixed-effects model fit by REML
+  Data: long_dat 
+       AIC      BIC    logLik
+  5485.694 5553.655 -2728.847
+
+Random effects:
+ Formula: ~1 | subject_id
+         (Intercept) Residual
+StdDev: 0.0004367679 4.138688
+
+Fixed effects:  biomarker ~ trt * visit_f + baseline_biomarker + strata + age +      sex 
+                        Value Std.Error  DF   t-value p-value
+(Intercept)         -0.003870 0.9554901 714  -0.00405  0.9968
+trtActive           -0.021921 0.5350488 234  -0.04097  0.9674
+visit_f4            -2.595833 0.5343023 714  -4.85836  0.0000
+visit_f8            -6.312500 0.5343023 714 -11.81447  0.0000
+visit_f12           -8.163333 0.5343023 714 -15.27849  0.0000
+baseline_biomarker   0.996175 0.0050617 234 196.80551  0.0000
+strataLow            0.115313 0.2712039 234   0.42519  0.6711
+age                  0.006451 0.0118727 234   0.54336  0.5874
+sexMale             -0.362547 0.2704147 234  -1.34071  0.1813
+trtActive:visit_f4  -0.914167 0.7556176 714  -1.20983  0.2267
+trtActive:visit_f8  -1.435833 0.7556176 714  -1.90021  0.0578
+trtActive:visit_f12 -3.569167 0.7556176 714  -4.72351  0.0000
+ Correlation: 
+                    (Intr) trtAct vst_f4 vst_f8 vst_12 bsln_b strtLw age    sexMal trA:_4 trA:_8
+trtActive           -0.287                                                                      
+visit_f4            -0.280  0.499                                                               
+visit_f8            -0.280  0.499  0.500                                                        
+visit_f12           -0.280  0.499  0.500  0.500                                                 
+baseline_biomarker  -0.514  0.031  0.000  0.000  0.000                                          
+strataLow           -0.200  0.000  0.000  0.000  0.000 -0.002                                   
+age                 -0.685 -0.022  0.000  0.000  0.000 -0.079  0.069                            
+sexMale             -0.154  0.040  0.000  0.000  0.000  0.059 -0.073 -0.045                     
+trtActive:visit_f4   0.198 -0.706 -0.707 -0.354 -0.354  0.000  0.000  0.000  0.000              
+trtActive:visit_f8   0.198 -0.706 -0.354 -0.707 -0.354  0.000  0.000  0.000  0.000  0.500       
+trtActive:visit_f12  0.198 -0.706 -0.354 -0.354 -0.707  0.000  0.000  0.000  0.000  0.500  0.500
+
+Standardized Within-Group Residuals:
+        Min          Q1         Med          Q3         Max 
+-2.77491195 -0.70098957  0.03024235  0.69674036  3.14992109 
+
+Number of Observations: 960
+Number of Groups: 240 
